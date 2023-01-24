@@ -17,7 +17,6 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
->>>>>>> f211731afb96136b07890dce3e5a6ce2860bea19
 """
 
 from pathlib import Path
@@ -27,17 +26,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # Quick-start development settings - unsuitable for production
-<< << << < HEAD
+
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-+kc*z2#kb^svlm9@yz-_y_lr9n7s&d!ubk4nc07#r)g8_buitl'
-== == == =
+
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-%j4yju9t(z#=ez$!w89lxcy3z+ve#-y(g08!q$xw)9l!_^8j-4'
->>>>>> > f211731afb96136b07890dce3e5a6ce2860bea19
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -54,10 +52,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    << << << < HEAD
     'recipes',
-    == == == =
-    >>>>>> > f211731afb96136b07890dce3e5a6ce2860bea19
+
 ]
 
 MIDDLEWARE = [
@@ -92,11 +88,11 @@ WSGI_APPLICATION = 'projeto.wsgi.application'
 
 
 # Database
-<< << << < HEAD
+
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-== == == =
+
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
->>>>>> > f211731afb96136b07890dce3e5a6ce2860bea19
+
 
 DATABASES = {
     'default': {
@@ -105,13 +101,6 @@ DATABASES = {
     }
 }
 
-
-# Password validation
-<< << << < HEAD
-# https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
-== == == =
-# https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
->>>>>> > f211731afb96136b07890dce3e5a6ce2860bea19
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -130,11 +119,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 # Internationalization
-<< << << < HEAD
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
-== == == =
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
->>>>>> > f211731afb96136b07890dce3e5a6ce2860bea19
 
 LANGUAGE_CODE = 'en-us'
 
@@ -142,29 +128,24 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-<< << << < HEAD
-== == == =
 USE_L10N = True
 
->>>>>> > f211731afb96136b07890dce3e5a6ce2860bea19
 USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-<< << << < HEAD
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
-== == == =
+
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
->>>>>> > f211731afb96136b07890dce3e5a6ce2860bea19
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
